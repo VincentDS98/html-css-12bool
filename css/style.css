@@ -1,0 +1,36 @@
+/*
+RESET
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.box {
+    
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    border: 1px solid;
+}
+.box .box {
+    
+    background-color: lightgreen;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    border: 1px solid;
+    border-color: blue;
+    font-size: 0.5em;
+}
+.white {
+    background-color: white;
+}
+
+.green{
+    background-color: green;
+}
